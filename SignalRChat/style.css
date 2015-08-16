@@ -1,0 +1,71 @@
+﻿body {
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: smaller;
+  color: #45c1e5;
+  padding-left: 10px;
+}
+
+.container {
+  background-color: #3c879e;
+  border: thick solid #000000;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  max-width: 1000px;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.chat {
+  background-color: #042e4a;
+  color: #45c1e5;
+  border: thick solid #000000;
+  padding: 5px;
+  padding-bottom: 0px;
+  margin: 0px;
+  float: left;
+  width: 70%;
+  height: 90%;
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+.usercontainer {
+  background-color: #042e4a;
+  border: thick solid #000000;
+  padding: 5px;
+  margin-left: 15px;
+  float: left;
+  width: 28%;
+  height: 90%;
+  overflow-y: scroll;
+  color: #01fadf;
+  border-radius: 15px;
+}
+
+.userlist {
+  background-color: #99CCFF;
+  border: thick solid #000000;
+  padding: 20px;
+  margin: 20px;
+}
+
+#message {
+  width: 614px;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  background-color: #042e4a;
+}
+
+#discussion {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.btn-primary {
+  float: left;
+}
