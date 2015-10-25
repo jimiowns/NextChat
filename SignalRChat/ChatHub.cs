@@ -41,6 +41,7 @@ namespace SignalRChat {
       _chat.AddUser(Context.ConnectionId, userName);
     }
 
+    // On connected
     public override Task OnConnected() {
       // AddUser is called from javascript because username is not given yet
 
