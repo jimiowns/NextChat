@@ -28,6 +28,7 @@ namespace SignalRChat {
       _dbHandler.SaveMessageToTableStorage(name, message);
     }
 
+    // Broadcast users
     private void BroadcastUsers() {
       _chat.BroadcastUsers();
     }
