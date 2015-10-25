@@ -33,6 +33,7 @@ namespace SignalRChat {
       _chat.BroadcastUsers();
     }
 
+    // Add user
     public void AddUser(string userName) {
       _chat.BroadcastMessagesToCaller(Context.ConnectionId, _dbHandler.GetLatestMessages(10));
       // Sleep for a second so that latest messages arrive first
