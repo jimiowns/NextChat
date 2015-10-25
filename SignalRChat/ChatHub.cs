@@ -48,6 +48,7 @@ namespace SignalRChat {
       return base.OnConnected();
     }
 
+    // On disconnected
     public override Task OnDisconnected(bool stopCalled) {
       _chat.RemoveUser(Context.ConnectionId);
       return base.OnDisconnected(stopCalled);
