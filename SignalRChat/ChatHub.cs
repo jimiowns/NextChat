@@ -10,7 +10,7 @@ namespace SignalRChat {
     private readonly IChat _chat;
     private readonly IDbHandler _dbHandler;
 
-    // Chathub
+    // Chathub the method
     public ChatHub(IChat chat, IDbHandler dbHandler) {
       if (chat == null) {
         throw new ArgumentNullException("chat");
