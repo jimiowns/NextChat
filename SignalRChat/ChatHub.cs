@@ -7,6 +7,7 @@ using Microsoft.AspNet.SignalR;
 namespace SignalRChat {
   public class ChatHub : Hub {
 
+    // variables
     private readonly IChat _chat;
     private readonly IDbHandler _dbHandler;
 
