@@ -22,6 +22,7 @@ namespace SignalRChat {
       _dbHandler = dbHandler;
     }
 
+    // send comment
     public void Send(string name, string message) {
       // Call the broadcastMessage method to update clients.
       _chat.BroadcastMessage(name, message);
